@@ -4,7 +4,7 @@
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
-    "rootDir": "src",
+    "rootDir": ".",
     "outDir": "dist"
   },
   "include": ["src", "tests"]
