@@ -1,22 +1,13 @@
- 'use strict';
-Object.defineProperty(exports, '__esModule', { value: true });
 import { runTetris, TetrisIO } from '../src/tetrisApp';
 
 class FakeTetrisIO implements TetrisIO {
   inputText: string;
-
   lastOutput: string | null = null;
-
   lastError: string | null = null;
-
   outputCalls = 0;
-
   errorCalls = 0;
-
   readCalls = 0;
-
   outputHistory: string[] = [];
-
   errorHistory: string[] = [];
 
   constructor(inputText: string) {
