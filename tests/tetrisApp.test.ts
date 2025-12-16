@@ -1,4 +1,5 @@
  'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
 import { runTetris, TetrisIO } from '../src/tetrisApp';
 
 class FakeTetrisIO implements TetrisIO {
